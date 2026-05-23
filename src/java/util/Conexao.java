@@ -11,7 +11,7 @@ public class Conexao {
         Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/smart_home_db",
                 "root",
-                "Victor@2022"
+                ""
         );
         return con;
     }
