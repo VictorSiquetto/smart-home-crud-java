@@ -26,9 +26,9 @@ use smart_home_db;
 
 create table if not exists dispositivos (
     id int auto_increment primary key,
-    nome varchar(100) not null,
-    comodo varchar(50) not null,
-    marca varchar(50),
+    nome varchar(50) not null,
+    comodo varchar(40) not null,
+    marca varchar(30),
     potencia double not null,
     horas_uso double not null,
     voltagem int not null,
