@@ -10,8 +10,8 @@ public class Conexao {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/smart_home_db",
-                "root",
-                ""
+                "seu_usuario",
+                "sua_senha"
         );
         return con;
     }
